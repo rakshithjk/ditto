@@ -85,8 +85,8 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
-          <Link to="/">DITTO</Link>
+          <div onClick={()=>closeMenu()}><Logo /></div>
+          <Link onClick={()=>closeMenu()} to="/">DITTO</Link>
           {!hideNav &&
             <>
               <button
@@ -120,7 +120,7 @@ const Header = ({
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
+                      <li onClick={()=>closeMenu()}>
                         <Link to="/individuals" className={
                     classNames(
                       'list-reset text-xs',
@@ -134,7 +134,7 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
+                    <li onClick={()=>closeMenu()}>
                       <Link to="/about-us" >About Us</Link>
                     </li>
                   </ul>

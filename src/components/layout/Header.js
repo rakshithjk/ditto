@@ -86,7 +86,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           <div onClick={()=>closeMenu()}><Logo /></div>
-          <Link onClick={()=>closeMenu()} to="/">DITTO</Link>
+          <Link onClick={()=>closeMenu()} to="/">EASY MANDI</Link>
           {!hideNav &&
             <>
               <button

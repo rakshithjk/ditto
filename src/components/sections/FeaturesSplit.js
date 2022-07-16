@@ -71,7 +71,7 @@ const FeaturesSplit = ({
                   Ease of Business
                   </h3>
                 <p className="m-0">
-                 Do you want an opportunity to easily step up your business with better quality products and at a cheaper cost? <br/>DITTO would be involved in procuring the highest quality items and providing a supply chain environment to deliver the same to you. </p>
+                 Do you want an opportunity to easily step up your business with better quality products and at a cheaper cost? <br/>EASY MANDI would be involved in procuring the highest quality items and providing a supply chain environment to deliver the same to you. </p>
               </div>
               <div className={
                 classNames(

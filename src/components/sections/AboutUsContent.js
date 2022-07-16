@@ -42,9 +42,9 @@ const IndividualsContent = ({
 
   const sectionHeader = [{
     title: "Our Vision",
-    paragraph: "Ditto's vision is to become the largest agricultural fair-trade platform,connecting farmers to industrial all around the world."
+    paragraph: "EASY MANDI's vision is to become the largest agricultural fair-trade platform,connecting farmers to industrial all around the world."
   },
-  {paragraph:"We aim drive agricultural transactions through our digital platform in combination with our service partnership network. DITTO would accommodate online payments between buyer and seller, product quality check options, and end-to-end logistic services."},
+  {paragraph:"We aim drive agricultural transactions through our digital platform in combination with our service partnership network. EASY MANDI would accommodate online payments between buyer and seller, product quality check options, and end-to-end logistic services."},
 {title: 'HAPPY FARMERS', paragraph: '“Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.” – Thomas Jefferson'}
 ];
 

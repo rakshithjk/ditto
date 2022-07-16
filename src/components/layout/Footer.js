@@ -40,7 +40,7 @@ const Footer = ({
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
-            <div className="footer-blocks"><span><Logo /></span> <span className="p0" >DITTO</span></div>
+            <div className="footer-blocks"><span><Logo /></span> <span className="p0" >EASY MANDI</span></div>
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">

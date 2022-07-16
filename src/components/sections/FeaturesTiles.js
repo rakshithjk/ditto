@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                     Transparency 
                     </h4>
                   <p className="m-0 text-sm">
-                   get complete insights on the procurement side
+                   get complete insights on the procurement side, with EVERY product GEO-TAGGED
                     </p>
                 </div>
               </div>

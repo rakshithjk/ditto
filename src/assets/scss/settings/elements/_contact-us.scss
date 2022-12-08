@@ -2,13 +2,15 @@
 
 .contact-us-btn {
   bottom: 20px;
-  border-radius: 30%;
+  border-radius: 10%;
   position: fixed;
   right: 20px;
   width: fit-content;
   background: transparent;
   border: none;
   background-color: white;
+  display: flex;
+  align-items: center;
 
   :hover {
     cursor: pointer;

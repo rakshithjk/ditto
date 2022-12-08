@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <a
       target="_blank"
-      href="https://wa.me/+916360747479"
+      href="https://wa.me/message/RZ2QR7CR45J4E1"
       rel="noopener noreferrer"
     >
       <button
@@ -18,6 +18,7 @@ const ContactUs = () => {
           width={50}
           height={50}
         />
+        Contact us
       </button>
     </a>
   );

@@ -9,6 +9,7 @@ import LayoutDefault from "./layouts/LayoutDefault";
 // Views
 import Home from "./views/Home";
 import Retailers from "./views/Retailers";
+import Catalogue from "./views/Catalogue";
 import IndividualsContent from "./views/Individuals";
 import AboutUs from "./views/AboutUs";
 import Header from "./components/layout/Header";
@@ -47,6 +48,12 @@ const App = () => {
               exact
               path="/retailers"
               component={Retailers}
+              layout={LayoutDefault}
+            />
+            <AppRoute
+              exact
+              path="/catalogue"
+              component={Catalogue}
               layout={LayoutDefault}
             />
             <AppRoute path="/" component={Home} layout={LayoutDefault} />

@@ -1,0 +1,16 @@
+// Whatsapp
+
+.contact-us-btn {
+  bottom: 20px;
+  border-radius: 30%;
+  position: fixed;
+  right: 20px;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  background-color: white;
+
+  :hover {
+    cursor: pointer;
+  }
+}
